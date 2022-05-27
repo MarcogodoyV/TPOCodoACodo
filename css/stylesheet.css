@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    color: #8bdbf5;
+    font-family: 'Fira Sans', sans-serif;;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .5s;
+    background: linear-gradient(225deg, rgb(0, 0, 0, 0.7) 0%, rgba(0,0,0,1) 50%, rgba(0, 0, 0) 100%);
+    margin:0;
+    height: 100vh;
+}
+
+nav {
+    margin:1rem;
+}
+
+.container {
+    margin:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.effect {
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: .27s;
+}
+
+.effect:hover {
+    cursor:pointer;
+    color:#FFF;
+}
+
+#logoImg {
+    margin: 2em auto;
+    max-width: 95%;
+}
+
+.relevant {
+    color:#FFF;
+    font-weight: bolder;
+}
+
+#footer {
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#footer>p {
+    margin:1rem;
+    color:rgba(167, 167, 167, 0.816);
+    font-weight: 300;
+}
+
+@media (min-width: 640px) {
+    body {
+        transition: .5s;
+        background-color: #b19ae2;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 750px;
+        height: 70vh;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #logoImg {
+        margin: 0;
+        max-width: 35%;
+    }
+
+    .aboutMe {
+        max-width: 50%;
+    }
+
+    .projects {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1008px) {
+    body {
+        transition: .5s;
+        background-color: #8bdbf5;
+    }
+
+    .container {
+        max-width: 1300px;
+        height: 80vh;
+    }
+
+    .header{
+        height: 70vh;
+        width: auto;
+    }
+
+    .aboutMe {
+        text-align: left;
+    }
+
+    #important {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1520px) { 
+    body {
+        transition: .5s;
+        background-color: #8bf5a6;
+    }
+}
