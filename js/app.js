@@ -9,8 +9,8 @@ const menuHandler = () => {
         sections.innerHTML= `
             [
             &nbsp;<a class="effect" href='./index.html'>Home</a>,&nbsp;
-            &nbsp;<a class="effect" href='./templates/about.html'>About</a>,&nbsp;
-            &nbsp;<a class="effect" href='./templates/contact.html'>Contact</a>&nbsp;
+            &nbsp;<a class="effect" href='./about.html'>About</a>,&nbsp;
+            &nbsp;<a class="effect" href='./contact.html'>Contact</a>&nbsp;
             ]`
     }
     
